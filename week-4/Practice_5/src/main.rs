@@ -4,7 +4,7 @@ fn main() {
 
     let mut input = String::new();
 
-    println!("\nEnter Your Height (in centimetres):");
+    println!("Enter Your Height (in centimetres):");
     io::stdin().read_line(&mut input).expect("not a valid string");
     let height:f32 = input.trim().parse().expect("Not a valid number");
 
